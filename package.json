@@ -1,0 +1,21 @@
+{
+	"name": "transaction-logger",
+	"version": "1.0.0",
+	"main": "transactions.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"run": "node transactions.js",
+		"start:watch": "nodemon transactions.js",
+		"start": "node transactions.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"xlsx": "^0.18.5"
+	},
+	"devDependencies": {
+		"nodemon": "^3.1.11"
+	}
+}
