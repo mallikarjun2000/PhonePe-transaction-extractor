@@ -21,7 +21,7 @@ To use this application
 1. Go to PhonePe > History > My Statement > Download
 2. Transform the pdf to excel using PdfGear.
 3. Paste the excel in the repository folder.
-4. In the `transactions_export.xlsx` update the `excelFileName` variable with your excel file name
+4. In the `transactions.js` update the `excelFileName` variable with your excel file name
 5. Run npm run start.
 6. You can get the transactions list in `transactions_export.xlxs` file.
 
