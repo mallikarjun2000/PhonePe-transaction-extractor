@@ -10,6 +10,8 @@ This script takes an phonePe statmenet and output the total DEBIT / CREDIT trans
 # Clone this repository
 git clone https://github.com/mallikarjun2000/PhonePe-transaction-extractor.git
 
+cd ./PhonePe-transaction-extractor
+
 npm install
 
 ```

@@ -68,7 +68,7 @@ function exportToExcel() {
 	const wsCredit = XLSX.utils.json_to_sheet(creditTransactions);
 	XLSX.utils.book_append_sheet(newWorkbook, wsCredit, "CREDIT");
 
-	XLSX.writeFile(newWorkbook, "./transactions_export_v2.xlsx");
+	XLSX.writeFile(newWorkbook, "./transactions_export.xlsx");
 	console.log("\nExported transactions_export_v2.xlsx successfully!");
 }
 
